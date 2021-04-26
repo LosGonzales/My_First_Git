@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void switchActivities() {
+    private void switchActivities() { //Change pages
         Intent intent = new Intent(this, RegisterActivity.class);
         startActivity(intent);
     }
